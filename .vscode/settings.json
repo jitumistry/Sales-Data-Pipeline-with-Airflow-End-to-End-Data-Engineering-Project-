@@ -1,0 +1,26 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "source_db",
+            "username": "admin",
+            "password": "admin",
+            "database": "sales_source"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5434,
+            "driver": "PostgreSQL",
+            "database": "sales_wh",
+            "name": "warehouse",
+            "username": "admin",
+            "password": "admin"
+        }
+    ]
+}
